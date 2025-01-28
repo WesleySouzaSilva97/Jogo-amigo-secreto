@@ -12,7 +12,7 @@ Clonar o repositório: Para começar, clone o repositório para sua máquina loc
 
 bash
 Copiar
-git clone https://github.com/seu-usuario/amigo-secreto.git
+git clone [https://github.com/seu-usuario/amigo-secreto.git](https://github.com/WesleySouzaSilva97/Jogo-amigo-secreto.git)
 Abrir o projeto: Navegue até a pasta onde você clonou o repositório e abra o arquivo index.html em seu navegador.
 
 Interagir com a aplicação:
