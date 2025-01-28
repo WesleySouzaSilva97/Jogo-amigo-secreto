@@ -33,3 +33,13 @@ function sortearAmigo() {
     const resultadoDiv = document.getElementById("resultado");
     resultadoDiv.textContent = "O amigo sorteado é: " + amigos[nomeEscolhido];
 }
+
+function removerUltimoAmigo() {
+    if (amigos.length > 0) {
+        amigos.pop();
+        const listaAmigos = document.getElementById("listaAmigos");
+        listaAmigos.removeChild(listaAmigos.lastElementChild);
+    } else {
+        alert("Não há amigos para remover!");
+    }
+}
