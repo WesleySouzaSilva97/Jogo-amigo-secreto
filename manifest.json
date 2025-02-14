@@ -2,7 +2,7 @@
     "name": "Amigo secreto",
     "short_name": "amigosecreto",
     "description": "aplicativo para sortear o amigo secreto",
-    "start_url": "/amigosecreto/",
+    "start_url": "/Jogo-amigo-secreto/",
     "scope": "/",
     "display": "standalone",
     "orientation": "portrait-primary",
