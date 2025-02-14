@@ -8,12 +8,12 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open('static')
             .then((cache) => {
-                cache.add('./Jogo-amigo-secreto/')
-                cache.add('./Jogo-amigo-secreto/index.html')
-                cache.add('./Jogo-amigo-secreto/style.css')
-                cache.add('./Jogo-amigo-secreto/app.js')
-                cache.add('./Jogo-amigo-secreto/assets/amigo-secreto.png')
-                cache.add('./Jogo-amigo-secreto/assets/play_circle_outline.png')
+                cache.add('./amigoSecreto/')
+                cache.add('./amigoSecreto/index.html')
+                cache.add('./amigoSecreto/style.css')
+                cache.add('./amigoSecreto/app.js')
+                cache.add('./amigoSecreto/assets/amigo-secreto.png')
+                cache.add('./amigoSecreto/assets/play_circle_outline.png')
             })
     )
 })
