@@ -1,0 +1,65 @@
+{
+    "name": "Amigo secreto",
+    "short_name": "amigosecreto",
+    "description": "aplicativo para sortear o amigo secreto",
+    "start_url": "/amigosecreto/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "pt-br",
+    "background_color": "#ffffff",
+    "theme_color": "#faa300",
+    "icons": [
+        {
+            "src": "./assets/amigo48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/amigo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src":"./assets/screenshot1.png",
+            "sizes": "367x652",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src":"./assets/screenshot2.png",
+            "sizes": "942x667",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+
+    ]
+}
