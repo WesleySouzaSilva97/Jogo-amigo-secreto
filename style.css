@@ -160,3 +160,47 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo para o Header */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+    text-align: center;
+}
+ 
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+ 
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+ 
+/* Ajustes para smartphones em portrait */
+@media (max-width: 600px) {
+    .header-banner {
+        flex: 30%;
+        padding: 20px 0;
+    }
+ 
+    .main-title {
+        font-size: 32px;
+        padding: 10px;
+    }
+ 
+    .header-banner img {
+        max-width: 80%;
+        margin-top: 10px;
+    }
+}
