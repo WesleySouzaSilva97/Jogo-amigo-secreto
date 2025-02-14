@@ -1,3 +1,5 @@
+![](img/qrcode.png)
+
 # Jogo-amigo-secreto
 
 Este projeto permite que você adicione amigos, sorteie um amigo secreto e remova o último amigo adicionado da lista. É uma aplicação simples e divertida, ideal para ocasiões como festas ou encontros.
